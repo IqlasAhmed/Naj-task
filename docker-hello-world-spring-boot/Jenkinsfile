@@ -44,7 +44,7 @@ node {
       dockerImage = docker.build("hello-world-java")
     }
    
-    stage('Deploy Docker Image'){
+    //stage('Deploy Docker Image'){
       
       // deploy docker image to nexus
 
